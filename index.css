@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(81, 81, 155);
+}
+.container {
+  width: 50%;
+  margin: auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#addTask {
+  border-radius: 20px;
+  width: 400px;
+  height: auto;
+  background-color: rgb(248, 187, 20);
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+#addTask input {
+  height: 30px;
+  font-size: 19px;
+  padding: 5px;
+}
+#addTask button {
+  width: 100px;
+  background: red;
+  color: aliceblue;
+  font-size: 20px;
+}
+/* <!-- <li class="list">
+<a href="#" class="delete">
+    <i class="fa-solid fa-trash"></i>
+</a>
+</li> */
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  width: 300px;
+  margin: 9px 50px 0 0;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: goldenrod;
+  border: 1px solid greenyellow;
+}
+.list .delete {
+  color: rgb(0, 0, 0);
+}
